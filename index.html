@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="src/style/index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+  <title>Carousel Template for Bootstrap</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light  justify-content-center">
+      <ul class="nav fixed-top justify-content-center">
+        <li class="nav-item"> <a class="nav-link" href="#"><img src="public/menu@1X.png"></a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#"><img src="public/Search@1X.png"></a> </li>
+        <li class="nav-item logo"> <a class="nav-link" href="#"><img src="public/Logo@1X.png"></a> </li>
+        <li class="nav-item share"> <a class="nav-link disabled" href="#"><img src="public/Shape 16@1X.png"></a> </li>
+        <li class="nav-item"> <a class="nav-link disabled" href="#"><img src="public/Shape 13@1X.png"></a> </li>
+      </ul>
+
+      <div class="button-nav"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav sec-nav mr-auto">
+          <li class="nav-item active"> <a class="nav-link active" href="#">DRESSES</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#">BLOUSES</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#">TEES &amp; TOPS</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#">T-SHIRTS</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#">OUTERWEAR</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#">PANS</a> </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="public/Pic@1X.png" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="public/Pic@1X.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="public/Pic@1X.png" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <img style="position:absolute;width:11px;height:18px" src="public/left@1X.png" alt=".." />
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <img style="position:absolute;width:11px;height:18px" src="public/arrow@1X.png" alt=".." />
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <div class="carousel-caption header-caption d-md-block">
+        <h5>Tees & Tops</h5>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.</p>
+        <button class="btn btn-dark discover-btn">DISCOVER MORE</button>
+        <ol class="carousel-indicators">
+          <li data-target="#arkanaIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#arkanaIndicators" data-slide-to="1"></li>
+          <li data-target="#arkanaIndicators" data-slide-to="2"></li>
+        </ol>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- banner start -->
+  <section class="row banner text-center">
+    <div class="col-lg-12">
+      <div class="row">
+        <div class="col-lg-4 col-sm-12 text-center">
+          <img src="public/Wallet2@1X.png">
+          <h3> Discount system</h3>
+          <p> Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime
+            placeat</p>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <img src="public/Bus@1X.png">
+          <h3> Free delivery</h3>
+          <p> Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime
+            placeat</p>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <img src="public/Person@1X.png">
+          <h3> Support 24/7</h3>
+          <p> Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime
+            placeat</p>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class=" container-fluid">
+      <div class="col-lg-12 banner-pic">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <img src="public/Image@1X.png" class="banner-img" height="440px" width="100%" alt="....">
+            <div class="text-center "> <button class="btn btn-light banner-btn"><a href="#">DRESSES</a></button></div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <img src="public/Img@2X.png" class="banner-img" height="440px" width="100%" alt="....">
+            <div class="text-center "> <button class="btn btn-light banner-btn"><a href="#">BLOUSES</a></button></div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <img src="public/Img@3X.png" class="banner-img" height="440px" width="100%" alt="....">
+            <div class="text-center "> <button class="btn btn-light banner-btn"><a href="#">T-SHIRTS</a></button></div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <img src="public/Pic@4X.png" class="banner-img" height="440px" width="100%" alt="....">
+            <div class="text-center"> <button class="btn btn-dark  banner-btn banner-btn-black"><a href="#">OUTERWEAR</a></button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banner end -->
+  <!--/* Top Trending start */-->
+  <section id="top-trending" class="row section">
+    <div class="text-center section-header col-lg-12">
+      <h3 class="text-center">Top Trending</h3>
+      <p class="text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint<br> occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.</p>
+    </div>
+  </section>
+
+  <section id="top-trending" class="text-center top-trending">
+    <div class="container-fluid">
+      <ul class="simplefilter">
+        <li class="active" data-filter="all" data-aos="slide-down">New products</li>
+        <li data-filter="1" data-aos="slide-down">Prices drop</li>
+        <li data-filter="2" data-aos="slide-down">Best sales</li>
+      </ul>
+      <div class="content" id="tab1-content">
+        <div class="rows">
+          <div class="product">
+            <div class="overlay text-center">
+              <a class="img-over" hre="#"></a>
+              <img src="public/Image-b1.png" alt="..." />
+              <span class="new">New</span>
+              <button class="quick btn"><a href="#">QUICK VIEW</a></button>
+              <button class="more btn"><a href="#">MORE DETAILS</a></button>
+            </div>
+            <div class="sub-main">
+              <h4>Excepteur sint occaecat cupidatat</h4>
+              <p class="price text-center"><span>199.00$</span>
+              </p>
+              <p class="color"><span></span><span></span><span></span><span></span></p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="overlay text-center">
+              <a class="img-over" hre="#"></a>
+              <img src="public/Image-b2.png" alt="..." />
+              <button class="quick btn"><a href="#">QUICK VIEW</a></button>
+              <button class="more btn"><a href="#">MORE DETAILS</a></button>
+            </div>
+            <div class="sub-main">
+              <h4>Excepteur sint occaecat cupidatat</h4>
+              <p class="price text-center"><span>199.00$</span>
+              </p>
+              <p class="color"><span></span><span></span><span></span><span></span></p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="overlay text-center">
+              <a class="img-over" hre="#"></a>
+              <img src="public/Image-b3.png" alt="..." />
+              <span class="sale">-20%</span>
+              <span class="new">New</span>
+              <button class="quick btn"><a href="#">QUICK VIEW</a></button>
+              <button class="more btn"><a href="#">MORE DETAILS</a></button>
+            </div>
+            <div class="sub-main">
+              <h4>Excepteur sint occaecat cupidatat</h4>
+              <p class="price text-center"><span>199.00$</span>
+                <small>299.00$ </small>
+              </p>
+              <p class="color"><span></span><span></span><span></span><span></span></p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="overlay text-center">
+              <a class="img-over" hre="#"></a>
+              <img src="public/Image-b4.png" alt="..." />
+              <button class="quick btn"><a href="#">QUICK VIEW</a></button>
+              <button class="more btn"><a href="#">MORE DETAILS</a></button>
+            </div>
+            <div class="sub-main">
+              <h4>Excepteur sint occaecat cupidatat</h4>
+              <p class="price text-center"><span>199.00$</span>
+              </p>
+              <p class="color"><span></span><span></span><span></span><span></span></p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="overlay text-center">
+              <a class="img-over" hre="#"></a>
+              <img src="public/Image-b5.png" alt="..." />
+              <span class="sale">-20%</span>
+              <button class="quick btn"><a href="#">QUICK VIEW</a></button>
+              <button class="more btn"><a href="#">MORE DETAILS</a></button>
+            </div>
+            <div class="sub-main">
+              <h4>Excepteur sint occaecat cupidatat</h4>
+              <p class="price text-center"><span>199.00$</span>
+                <small>299.00$ </small>
+              </p>
+              <p class="color"><span></span><span></span><span></span><span></span></p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="overlay text-center">
+              <a class="img-over" hre="#"></a>
+              <img src="public/Image-b6.png" alt="..." />
+              <span class="sale">-20%</span>
+              <button class="quick btn"><a href="#">QUICK VIEW</a></button>
+              <button class="more btn"><a href="#">MORE DETAILS</a></button>
+            </div>
+            <div class="sub-main">
+              <h4>Excepteur sint occaecat cupidatat</h4>
+              <p class="price text-center"><span>199.00$</span>
+                <small>299.00$ </small>
+              </p>
+              <p class="color"><span></span><span></span><span></span><span></span></p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="overlay text-center">
+              <a class="img-over" hre="#"></a>
+              <img src="public/Image-b7.png" alt="..." />
+              <button class="quick btn"><a href="#">QUICK VIEW</a></button>
+              <button class="more btn"><a href="#">MORE DETAILS</a></button>
+            </div>
+            <div class="sub-main">
+              <h4>Excepteur sint occaecat cupidatat</h4>
+              <p class="price text-center"><span>199.00$</span>
+              </p>
+              <p class="color"><span></span><span></span><span></span><span></span></p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="overlay text-center">
+              <a class="img-over" hre="#"></a>
+              <img src="public/Image-b8.png" alt="..." />
+              <button class="quick btn"><a href="#">QUICK VIEW</a></button>
+              <button class="more btn"><a href="#">MORE DETAILS</a></button>
+            </div>
+            <div class="sub-main">
+              <h4>Excepteur sint occaecat cupidatat</h4>
+              <p class="price text-center"><span>199.00$</span>
+              </p>
+              <p class="color"><span></span><span></span><span></span><span></span></p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="overlay text-center">
+              <a class="img-over" hre="#"></a>
+              <img src="public/Image-b2.png" alt="..." />
+              <span class="sale">-20%</span>
+              <button class="quick btn"><a href="#">QUICK VIEW</a></button>
+              <button class="more btn"><a href="#">MORE DETAILS</a></button>
+            </div>
+            <div class="sub-main">
+              <h4>Excepteur sint occaecat cupidatat</h4>
+              <p class="price text-center"><span>199.00$</span>
+                <small>299.00$ </small>
+              </p>
+              <p class="color"><span></span><span></span><span></span><span></span></p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="overlay text-center">
+              <a class="img-over" hre="#"></a>
+              <img src="public/Image-b1.png" alt="..." />
+              <button class="quick btn"><a href="#">QUICK VIEW</a></button>
+              <button class="more btn"><a href="#">MORE DETAILS</a></button>
+            </div>
+            <div class="sub-main">
+              <h4>Excepteur sint occaecat cupidatat</h4>
+              <p class="price text-center"><span>199.00$</span>
+              </p>
+              <p class="color"><span></span><span></span><span></span><span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="clearfix"></div>
+    <br>
+    <br>
+    <div class="text-center"><button class="btn btn-dark">all products</button></div>
+  </section>
+  <!--/* Top Trending end */-->
+
+  <!--prodect start-->
+  <section id="prodect" class="section ">
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div id="prodect-image" class="col-md-6 col-sm-5"> <img src="public/Img@1X.png" width="105%" height="100%"></div>
+        <div class="col-md-6 text-center pordect-rigth">
+          <div class="prodect-title"><h2>Bags & Shoes</h2></div>
+          <hr class="prodect-line">
+          <div class="prodect-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+          <div><button class="btn btn-light discovery-btn">DISCOVRY MORE</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--prodect end-->
+
+
+  <!--logos section start -->
+  <section class="logos text-center">
+    <div class="container">
+      <div class="row  text-center">
+        <div class="col-lg-2 col-sm-4 col-6 logo-image">
+          <img src="public/Logo_4@1X.png">
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 logo-image">
+          <img src="public/Logo_5@1X.png">
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 logo-image">
+          <img src="public/Logo_6@1X.png">
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 logo-image">
+          <img src="public/Logo_11@1X.png">
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 logo-image">
+          <img src="public/Logo_15@1X.png">
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 logo-image">
+          <img src="public/Logo_16@1X.png">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--logos section end -->
+
+  <!-- instgram start -->
+  <section class="instgram">
+    <div class="container-fluid">
+      <div class="instgram-image">
+          <img src="public/1@1X.png">
+          <img src="public/2@1X.png">
+          <img src="public/3@1X.png">
+          <img src="public/4@1X.png">
+          <img src="public/5@1X.png">
+          <img src="public/6@1X.png">
+          <p class="instgram-word">#instgram</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- instgram end -->
+  <section class="instgram">
+
+
+  </section>
+  <!-- map section -->
+  <section>
+    <div id="map"><img src="public/Map@1X.png"></div>
+    <div class="text-center">
+      <div class="address">Alterego, 1 Infinite Loop, Cupertino,
+        CA 95014<br>8 - 800 - 2000 - 3000<br>demo@demo.com<br>Mon. - Sun: 09:00 - 19:00 </div>
+    </div>
+  </section>
+  <!--footer start-->
+  <footer id="footer" class="row">
+    <div class="d-md-block" id="remove_calss">
+      <div class="col-lg-12">
+        <div class="row footer_body">
+          <div class="col-lg-3 col-sm-6 footer_body_contain">
+            <div class="footer_cloumn_title"><img src="public/Logo@1X.png"></div>
+            <div class="footer_cloumn_dec footer_cloumn_dec1 ">Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore
+              eu fugiat nulla pariatur. </div>
+            <div class="text-center icon-footer"><i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i> <i
+                class="fab fa-pinterest-square"></i>
+              <i class="fab fa-twitter"></i></div>
+              <form>
+  				    <input type="text" placeholder="Enter Your Email" />
+  					  <input type="submit" value="Subscribe"/>
+  				  </form>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 footer_body_contain">
+            <div class="footer_cloumn_title">
+              Products
+            </div>
+            <div class="footer_cloumn_dec">
+              <ul>
+                <li>
+                  <a href="#"> Prices drop</a>
+                </li>
+                <li>
+                  <a href="#"> New products</a>
+                </li>
+                <li>
+                  <a href="#">Best sales</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 footer_body_contain">
+            <div class="footer_cloumn_title">
+              Information
+            </div>
+            <div class="footer_cloumn_dec">
+              <ul>
+                <li>
+                  <a href="#"> Delivery</a>
+                </li>
+                <li>
+                  <a href="#"> Legal Notice</a>
+                </li>
+                <li>
+                  <a href="#">Terms and conditions of use</a>
+                </li>
+                <li>
+                  <a href="#"> About us</a>
+                </li>
+                <li>
+                  <a href="#"> Secure payment</a>
+                </li>
+                <li>
+                  <a href="#"> Sitemap</a>
+                </li>
+                <li>
+                  <a href="#"> Stores</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="col-lg-3  col-sm-6 footer_body_contain">
+            <div class="footer_cloumn_title">Your account
+            </div>
+            <div class="footer_cloumn_dec">
+              <ul>
+                <li>
+                  <a href="#"> Addresses</a>
+                </li>
+                <li>
+                  <a href="#"> Credit slips</a>
+                </li>
+                <li>
+                  <a href="#">Orders</a>
+                </li>
+                <li>
+                  <a href="#">Personal info</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center last-footer">© 2017 - Ecommerce software by PrestaShop™ <img src="public/pay-method@1X.png"
+        class="footer-image"></div>
+  </footer>
+  <!--footer end-->
+  <!-- <script src="./src/jquery.min.js"></script> -->
+  <script src="./src/jquery.filterizr.js"></script>
+
+
+</body>
+
+</html>
